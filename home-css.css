@@ -1,0 +1,58 @@
+ul {
+	font-size: 20px;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin: 0px, 200px;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a {
+	display: transparent;
+	color: white;
+	padding: 5px 15px;
+	text-decoration: none;
+	float: left;
+}
+
+hr {
+	opacity: 0.5;
+}
+
+li a:hover {
+	text-shadow: 1px 1px;
+}
+
+body {
+    background: url('images/climate change photo.jpeg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+	text-align: center;
+	color: white;
+}
+
+#c1 {
+	font-size: 80px;
+	margin-top: 150px;
+}
+
+#c2 {
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.content p {
+	margin:350px 500px;
+	text-align: justify;
+	color: gray;
+}
+
+
+
+	

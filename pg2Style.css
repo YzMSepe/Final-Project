@@ -1,0 +1,61 @@
+body {
+	background-color: #ced2ba;
+}
+
+ul {
+	font-size: 20px;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin: 0px, 200px;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a  {
+	display: transparent;
+	color: black;
+	padding: 5px 15px;
+	text-decoration: none;
+	float: left;
+}
+
+hr {
+	opacity: 0.5;
+}
+
+li a:hover {
+	text-shadow: 1px 1px;
+}
+.title img {
+	margin-left: 20px;
+	width: 400px;
+	height: 350px;
+	float: right;
+}
+
+
+.info {
+    text-align: justify;
+}
+
+.info h3 {
+	margin-top: 50px;
+}
+
+.statistics h2 {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.statistics img {
+	float:left;
+	height: 300px;
+	width: 700px;
+	margin: 40px 80px;
+}
+
+.statistics p {
+	margin: 150px 100px 50px 0; 
+	text-align: justify;
+}
+
