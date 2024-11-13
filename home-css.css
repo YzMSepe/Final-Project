@@ -1,3 +1,4 @@
+
 ul {
 	font-size: 20px;
 	text-transform: uppercase;
@@ -19,6 +20,7 @@ a:link {
   color: #FF0000;
 }
 
+/* visited link */
 a:visited {
   color: #00FF00;
 }
