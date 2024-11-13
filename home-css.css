@@ -15,12 +15,24 @@ li a {
 	float: left;
 }
 
-hr {
-	opacity: 0.5;
+a:link {
+  color: #FF0000;
 }
 
-li a:hover {
-	text-shadow: 1px 1px;
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  text-shadow: 1px 1px;
+}
+
+a:active {
+  color:#964B00;
+}
+
+hr {
+	opacity: 0.5;
 }
 
 body {
@@ -48,9 +60,15 @@ body {
 }
 
 .content p {
-	margin:350px 500px;
+	margin:350px 500px 50px;
 	text-align: justify;
 	color: gray;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 
