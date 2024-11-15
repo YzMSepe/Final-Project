@@ -72,15 +72,6 @@ div {
     justify-content: center;
     align-items: center; 
 }
-.link {
-	text-align: center;
-}
-
-.link: hover {
-	color: black;
-	font-size: 30px;
-}
-
 
 footer {
 	font: 10px;
