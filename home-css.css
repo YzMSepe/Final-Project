@@ -1,14 +1,15 @@
 
-ul {
-	font-size: 20px;
+nav {
+	font-size: 25px;
 	text-transform: uppercase;
 	list-style-type: none;
 	margin: 0px, 200px;
 	padding: 0;
 	overflow: hidden;
+	color: white;
 }
 
-li a {
+a {
 	display: transparent;
 	color: white;
 	padding: 5px 15px;
@@ -20,7 +21,6 @@ a:link {
   color: #FF0000;
 }
 
-/* visited link */
 a:visited {
   color: #00FF00;
 }
@@ -34,7 +34,7 @@ a:active {
 }
 
 hr {
-	opacity: 0.5;
+	opacity: 1px;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
     padding: 0;
 }
 
-.content {
+header {
 	text-align: center;
 	color: white;
 }
@@ -61,16 +61,33 @@ body {
 	margin-top: 20px;
 }
 
-.content p {
-	margin:350px 500px 50px;
+.content {
+	margin:500px 500px 50px;
 	text-align: justify;
 	color: gray;
 }
 
-.video {
+div {
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+.link {
+	text-align: center;
+}
+
+.link: hover {
+	color: black;
+	font-size: 30px;
+}
+
+
+footer {
+	font: 10px;
+	margin-top: 100px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #808080;
 }
 
 
