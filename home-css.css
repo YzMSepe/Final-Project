@@ -67,11 +67,11 @@ header {
 	color: gray;
 }
 
-div {
+.video{
     display: flex;
     justify-content: center;
     align-items: center; 
-}
+	transform: translateX(-200px);
 
 footer {
 	font: 10px;
