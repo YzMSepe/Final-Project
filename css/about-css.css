@@ -268,7 +268,7 @@ ul:only-of-type {
 
 .audio audio {
 	position:absolute;
-	top:98%;
+	top:125%;
 	width: 300px;
 	border-style:dashed;
 	border-color: #1f1616;
