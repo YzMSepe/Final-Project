@@ -182,13 +182,53 @@ a:active {
 	width: 43px;
 	height: 30px;
   	position:absolute;
- 	 margin-left: 45.5%;
+ 	 margin-left: 35%;
   	margin-top: 0.7%;
   	animation: arrows 1s steps(4) infinite;
 }
 @keyframes arrows {
-  from{background-position-x:20.979%;}
-  to{background-position-x:11.248%;}
+	from{background-position-x:20.979%;}
+	to{background-position-x:11.248%;}
+  }
+  .fb {
+	background: url('../images/good.png') no-repeat 39.859% 70.109%;
+	width: 33px;
+	height: 32px;
+	position:absolute;
+	margin-top:10px;
+	left: 40%;
+}
+
+.fb:hover, .fb:active {
+	background: url('../images/good.png') no-repeat 39.859% 29.508%;
+	width: 33px;
+	height: 33px;
+}
+.twitter {
+	background: url('../images/good.png') no-repeat 59.965% 70.492%;
+	width: 33px;
+	height: 33px;
+	position:absolute;
+	margin-top:10px;
+	left: 43%;
+}
+.twitter:hover, .twitter:active {
+	background: url('../images/good.png') no-repeat -340px -54px;
+	width: 33px;
+	height: 33px;
+}
+.git {
+	background: url('../images/good.png') no-repeat -456px -129px;
+	width: 32px;
+	height: 33px;
+	position:absolute;
+	margin-top:10px;
+	left: 46%;
+}
+.git:hover, .git:active {
+	background: url('../images/good.png') no-repeat -456px -54px;
+	width: 33px;
+	height: 33px;
 }
 
 
