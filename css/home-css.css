@@ -92,7 +92,7 @@ a.one:active {
 	width: 43px;
 	height: 30px;
   	position:absolute;
- 	 margin-left: 45.5%;
+ 	 margin-left: 35%;
   	margin-top: 0.7%;
   	animation: arrows 1s steps(4) infinite;
 }
@@ -126,7 +126,7 @@ header {
 	height: 32px;
 	position:absolute;
 	margin-top:10px;
-	left: 50%;
+	left: 40%;
 }
 
 .fb:hover, .fb:active {
@@ -140,7 +140,7 @@ header {
 	height: 33px;
 	position:absolute;
 	margin-top:10px;
-	left: 53%;
+	left: 43%;
 }
 .twitter:hover, .twitter:active {
 	background: url('../images/good.png') no-repeat -340px -54px;
@@ -153,7 +153,7 @@ header {
 	height: 33px;
 	position:absolute;
 	margin-top:10px;
-	left: 56%;
+	left: 46%;
 }
 .git:hover, .git:active {
 	background: url('../images/good.png') no-repeat -456px -54px;
@@ -176,7 +176,7 @@ header {
 	margin-top: 30px;
 	text-shadow: 0px 0px 10px darkred;
 }
-.vid1 video {
+.vid video {
 	position: absolute;
 	border-color: #1f1616;
 	border-style: solid;
